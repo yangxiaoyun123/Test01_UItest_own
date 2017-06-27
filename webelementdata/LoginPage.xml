@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page name="登录页面"><!-- 登录页面 -->
+      <locator name="请登录" type="css" value="a.link-login" timeout="5">login</locator>
+      <locator name="选择账号密码登录" type="css" value="div.login-tab.login-tab-r" timeout="5">loginCheck</locator>  
+      <locator name="用户名" type="css" value="input#loginname" timeout="5">usernameInputBox</locator>
+      <locator name="密码" type="css" value="input#nloginpwd" timeout="5">passwordInputBox</locator>
+      <locator name="登录提交" type="css" value="a#loginsubmit" timeout="5">loginButton</locator> 
+      <locator name="搜索商品" type="css"  value="input#key" timeout="5">searchProduct</locator>      
+      <locator name="点击搜索" type="css" value="button.button" timeout="5">searchSubmit</locator>                                
+</page>
+

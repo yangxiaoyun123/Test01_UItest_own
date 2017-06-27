@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page name="登录页面"><!-- 登录页面 -->
+      <locator name="用户中心" type="css" value="a.user_info_logout" timeout="5">userCenter</locator>
+</page>
+

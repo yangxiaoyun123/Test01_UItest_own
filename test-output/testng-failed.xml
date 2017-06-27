@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [suite1]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    <listener class-name="com.xiaoyun.utils.RetryListener"/>
+    <listener class-name="com.xiaoyun.utils.TestNGListener"/>
+  </listeners>
+  <test name="test1(failed)">
+    <classes>
+      <class name="com.xiaoyun.testcases.LoginTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="loginTest01"/>
+          <include name="loginTest02"/>
+        </methods>
+      </class> <!-- com.xiaoyun.testcases.LoginTest -->
+    </classes>
+  </test> <!-- test1(failed) -->
+</suite> <!-- Failed suite [suite1] -->

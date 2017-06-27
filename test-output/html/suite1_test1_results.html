@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="" lang="">
+<head>
+  <title>Test Results Report - Default test</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="TestNG unit test results." />
+  <link href="reportng.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="reportng.js"></script>
+</head>
+<body>
+<h1>Default test</h1>
+<p>
+  Test duration: 23.881s
+</p>
+
+
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header failed">Failed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">com.xiaoyun.testcases.LoginTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  loginTest01
+      </td>
+  <td class="duration">
+    6.573s
+  </td>
+  <td class="result">
+        
+    
+        
+
+        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>java.lang.NullPointerException</b></a><br />
+    <div class="stackTrace" id="exception-0">
+              com.xiaoyun.utils.ScreenShot.takeScreenShot(ScreenShot.java:43)<br />
+              com.xiaoyun.utils.ScreenShot.takeScreenShot(ScreenShot.java:38)<br />
+              com.xiaoyun.actions.LoginOperate.getLoginName(LoginOperate.java:44)<br />
+              com.xiaoyun.testcases.LoginTest.loginTest01(LoginTest.java:61)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+              java.lang.reflect.Method.invoke(Unknown Source)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:661)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:744)<br />
+              org.testng.TestRunner.run(TestRunner.java:602)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:380)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:289)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1226)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1144)<br />
+              org.testng.TestNG.run(TestNG.java:1115)<br />
+              org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)<br />
+              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)<br />
+              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  loginTest02
+      </td>
+  <td class="duration">
+    11.219s
+  </td>
+  <td class="result">
+        
+    
+        
+
+        <a href="javascript:toggleElement('exception-1', 'block')" title="Click to expand/collapse"><b>java.lang.NullPointerException</b></a><br />
+    <div class="stackTrace" id="exception-1">
+              com.xiaoyun.utils.ScreenShot.takeScreenShot(ScreenShot.java:43)<br />
+              com.xiaoyun.utils.ScreenShot.takeScreenShot(ScreenShot.java:38)<br />
+              com.xiaoyun.uiframework.webElementUtil.getElement(webElementUtil.java:57)<br />
+              com.xiaoyun.uiframework.webElementUtil$1.apply(webElementUtil.java:71)<br />
+              com.xiaoyun.uiframework.webElementUtil$1.apply(webElementUtil.java:1)<br />
+              org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)<br />
+              com.xiaoyun.uiframework.webElementUtil.findElement(webElementUtil.java:69)<br />
+              com.xiaoyun.uiframework.webElementUtil.click(webElementUtil.java:90)<br />
+              com.xiaoyun.pages.LoginPage.Login(LoginPage.java:86)<br />
+              com.xiaoyun.actions.LoginOperate.LoginSuess(LoginOperate.java:31)<br />
+              com.xiaoyun.actions.LoginOperate.getLoginName(LoginOperate.java:43)<br />
+              com.xiaoyun.testcases.LoginTest.loginTest02(LoginTest.java:93)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+              java.lang.reflect.Method.invoke(Unknown Source)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:661)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:744)<br />
+              org.testng.TestRunner.run(TestRunner.java:602)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:380)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:289)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1226)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1144)<br />
+              org.testng.TestNG.run(TestNG.java:1115)<br />
+              org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)<br />
+              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)<br />
+              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)<br />
+                </div>
+      </td>
+</tr>
+      </table>
+
+
+  
+</body>
+</html>
